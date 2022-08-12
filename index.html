@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Bootstrap demo</title>
+        <link
+            href="./static/bootstrap-5.2.0-dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto d-flex align-items-center gap-3">
+                        <li class="nav-item">
+                            <a class="btn btn-outline-primary" aria-current="page" href="/detailed-schedule-table.html"
+                                >Oral Presentation Schedule</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-primary" aria-current="page" href="/poster-schedule-table.html"
+                                >Poster Schedule</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="p-3">
+            <table class="my-5 table table-bordered border-dark align-middle schedule-table">
+                <tbody>
+                    <tr>
+                        <td colspan="4" class="fw-bold">Day 1: 18.08.2022 (Thursday)</td>
+                    </tr>
+                    <tr>
+                        <td>09:00 - 09:30</td>
+                        <td colspan="3">Symposium Registration - Authors and Delegates</td>
+                    </tr>
+                    <tr class="fw-bold text-center">
+                        <td>09:30 - 11:00</td>
+                        <td colspan="3">
+                            <p>Symposium Inauguration - Sir M Visvesvaraya Auditorium</p>
+                            <p>Address by Directors and CMD, BEL, Key Note Address by Dr. Binay Kumar Das, DG, DRDO</p>
+                        </td>
+                    </tr>
+                    <tr class="schedule__break">
+                        <td>11:00 - 11:30</td>
+                        <td colspan="3" class="text-center">HIGH TEA</td>
+                    </tr>
+                    <tr class="fw-bold text-center">
+                        <td>Hall &amp; Time</td>
+                        <td>Dr. A P J Abdul Kalam Hall (Track-1)</td>
+                        <td>Sir C.V. Raman Hall (Track-2)</td>
+                        <td>Prof. Satish Dhawan Hall (Track-3)</td>
+                    </tr>
+                    <tr class="fw-bold text-center">
+                        <td>11:30 - 16:55</td>
+                        <td>
+                            Session-1 (Communication)Chair: Shri P SAMPATH KUMAR, CTO-COMMCo-chair: Shri RAJENDRA
+                            SAMBRANI B,AGM, D &amp; E- MCE
+                        </td>
+                        <td>
+                            Session-2 (RF and Microwave)Chair: Shri HARI KUMAR R, GM - TPCo-chair: Smt. KALYANI
+                            MURTHY,AGM, PDIC
+                        </td>
+                        <td>
+                            Session-3 (Electro Optics)Chair: Smt. VANISREE V,CTO-EW &amp; PHOTONICSCo-chair: Smt.
+                            HEMALATHA B J,AGM, COE-R&amp;W
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>11:30 - 11:50</td>
+                        <td class="session-1">
+                            Kalman Filter Based Data Fusion for MIMODSSS based CDMA (4), Manjukrishna, MILCOM
+                        </td>
+                        <td class="session-2">
+                            Design and Development of 100W GaN basedS Band DTRM (50), NIRMAL MUNDRA,RADAR
+                        </td>
+                        <td class="session-3">
+                            Development of n-on-p type Quadrant PhotoDetector with increased Charge CollectionEfficiency
+                            (36), Arijit Das, COMP
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>11:50 - 12:10</td>
+                        <td class="session-1">
+                            Co-Operative Time Synchronization for aTDMA-Based Multi-Hop Ad-hoc TacticalNetwork (12),
+                            Shivanand Mishra, COE-CM
+                        </td>
+                        <td class="session-2">
+                            Design of Broadband High Efficiency PowerAmplifier using Continuous InverseModes(108),
+                            Kushan Chakraborty, CRL-BG
+                        </td>
+                        <td class="session-3">
+                            Triple band antireflection coating on ZnSwindows for multi-channel electro opticsensors.
+                            (38), Bojja Sridhar, MC
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>12:10 - 12:30</td>
+                        <td class="session-1">
+                            Inter-Numerology Interference in 5G NewRadio Analysis for Time-Varying FadingChannels (42),
+                            Sreedhar Tenneti, CRLBG
+                        </td>
+                        <td class="session-2">
+                            Design of Low SWaPUltra low phase noiseMulti-source generator for X-Band DopplerWeather
+                            Radar(135), Vipin Kumar H, PDIC
+                        </td>
+                        <td class="session-3">
+                            Theoretical anatomization of In-phase HighPower Lethal Beam as Warfare Weapon(172),Debasish
+                            Mishra, COE-EL
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>12:30 - 12:50</td>
+                        <td class="session-1">Long Range Mesh Communication (120),MAITREYEE SINHA, CRL-BG</td>
+                        <td class="session-2">
+                            Design of 70W GaN Based Power EfficientAmplifier for Software Defined RadioApplications
+                            (155), Joydeb Mandal, CRL-BG
+                        </td>
+                        <td class="session-3">
+                            1 kW Narrow-linewidth CW Fiber Laser Sourcefor Spectral Beam Combining (86), Thejna
+                            RosJoseph, CRL-BG
+                        </td>
+                    </tr>
+                    <tr class="schedule__break">
+                        <td>13:00 - 14:00</td>
+                        <td colspan="3" class="text-center">LUNCH</td>
+                    </tr>
+                    <tr class="fw-bold">
+                        <td>14:00 - 15:00</td>
+                        <td colspan="3" class="text-center">
+                            Invited talk by Dr. Ashok Rao, Director, NIE-MC - Sir M Visvesvaraya Auditorium
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>15:00 - 15:20</td>
+                        <td class="session-1">
+                            Implementation of Flex Low-Phy Modules inORAN based 5G NR Radio Unit with HybridBeam-forming
+                            (147), Hari Krishna, CRL-BG
+                        </td>
+                        <td class="session-2">
+                            S-Band Power Amplifier with Low EVM forDatalink Avionics Applications (180), Devendrakirad,
+                            PDIC
+                        </td>
+                        <td class="session-3">
+                            Optical Design for External Fusion Night VisionDevice (192), Krishnendu Roy, COE-EL
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>15:20 - 15:40</td>
+                        <td class="session-1">SoC Based ADS-B Receiver (123),MANASI SEN, PDIC</td>
+                        <td class="session-2">
+                            C band high linearity gain block MMICAmplifier using GaAs pHEMT process(35),konderu satish
+                            kumar, PDIC
+                        </td>
+                        <td class="session-3">
+                            Binary Measurement Matrix Construction forCompressive Sensing of Thermal Images (44),Dr.
+                            Gayatri Parthasarathy, CRLBG
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>15:40 - 15:55</td>
+                        <td colspan="3" class="text-center schedule__break">TEA BREAK</td>
+                    </tr>
+                    <tr>
+                        <td>15:55 - 16:15</td>
+                        <td class="session-1">
+                            An Efficient Simulation Platform for DVB-S2 based Satellite System (2), Deepika Revankar
+                            Manjunath, PDIC
+                        </td>
+                        <td class="session-2">
+                            All Electric Two Axis Stabilization System for Ship Borne Radar (10), Amarnath Yadav,
+                            ANTENNA
+                        </td>
+                        <td class="session-3">
+                            Image Super-resolution using controlled microscanning (98), Karthick D, CRL-BG
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>16:15 - 16:35</td>
+                        <td class="session-1">
+                            High Speed Data Dissemination in SATCOM Network (24), Manmohan Singh, SCCS
+                        </td>
+                        <td class="session-2">
+                            A High Bandwidth X Band Mono-Pulse comparator for Tracking RADAR.(18), ANILKUMAR HL, MR
+                        </td>
+                        <td class="session-3">
+                            Design of Compact Teleconverter Lens for Block Cameras (79), ADEPU RAJESH, MC
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>16:35 - 16:55</td>
+                        <td class="session-1">
+                            A Method and System for Time Synchronization In Nano Seconds Order, by Multicore Satellite
+                            Receiver Architecture (94), A Rakesh Kumar, CRL-BG
+                        </td>
+                        <td class="session-2">
+                            Material selection and Hail Impact Analysis of Airborne Radome (165), Ajith Kumar K A, PDIC
+                        </td>
+                        <td class="session-3">
+                            Indigenous Development Dual Channel Drainage Intrusion Detection System (139), Renu
+                            Varshney, COE-EL
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="my-5 table table-bordered border-dark align-middle schedule-table">
+                <tbody>
+                    <tr>
+                        <td colspan="4" class="fw-bold">Day 2: 19.08.2022 (Friday)</td>
+                    </tr>
+                    <tr>
+                        <td>08:30 - 09:00</td>
+                        <td colspan="2">Symposium Registration - Authors and Delegates</td>
+                        <td></td>
+                    </tr>
+                    <tr class="fw-bold">
+                        <td>09:00 - 09:30</td>
+                        <td colspan="2">
+                            Invited Talk by Dr. Ajit T Kalghatgi, Former Director (R &amp;D), BEL - Sir M Visvesvaraya
+                            Auditorium
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr class="fw-bold">
+                        <td>09:30 - 10:00</td>
+                        <td colspan="2">
+                            Invited Talk by Dr. S D Sudarshan, Executive Director, C-DAC - Sir M Visvesvaraya Auditorium
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr class="fw-bold text-center">
+                        <td>Hall &amp; Time</td>
+                        <td>Dr. A P J Abdul Kalam Hall (Track - 1)</td>
+                        <td>Sir C.V. Raman Hall (Track - 2)</td>
+                        <td>Prof. Satish Dhawan Hall (Track - 3)</td>
+                    </tr>
+                    <tr class="fw-bold text-center">
+                        <td>10:00 - 13:15</td>
+                        <td>
+                            Session-4 (Network)Chair: Shri MANOJ JAIN, GM(EW&amp;A)Co-chair: Shri SAMEER KUMAR
+                            VERMA,AGM, SC &amp; US
+                        </td>
+                        <td>
+                            Session-5 (AI &amp; Image Processing)Chair: Shri ANOOP KUMAR RAI, CS - CRLGADCo-chair: Shri
+                            KODANDARAMA K,AGM,BSTC
+                        </td>
+                        <td>
+                            Session-6 (RADAR Signal and Data Processing)Chair: Smt. SARALA B, CTO-R&amp;WSCo-chair: Shri
+                            MALARKANNAN G,AGM, D&amp;E MR
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>10:00 - 10:20</td>
+                        <td class="session-4">
+                            Comparative Evaluation of Software Architecture Design and Development in Network Centric
+                            Combat Systems - Monolith vs. Components (80), Sarvesh Kumar Chaudhary, CRL-GAD
+                        </td>
+                        <td class="session-5">
+                            Passive Ranging using Cascading of AI Detection Models (158), Subhasis Mandal, CRL-BG
+                        </td>
+                        <td class="session-6">
+                            Study of Elevation Estimation Techniques Based on Polynomial Regression in 3D Surveillance
+                            Radar (5), Ram Pravesh, RADAR
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>10:20 - 10:40</td>
+                        <td class="session-4">
+                            Adaptive Polling Algorithm for EnterpriseNetwork (20), Vandana, CRL-GAD
+                        </td>
+                        <td class="session-5">
+                            Manufacturing Defect Detection in AssembledPCBs using Deep Learning (45),Amit Jain, RADAR
+                        </td>
+                        <td class="session-6">
+                            AMR-based Cooperative Track Maintenance inMST Surveillance System (14),Mali Dasharathbhai
+                            Dahyalal, CRL-BG
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>10:40 - 11:00</td>
+                        <td class="session-4">
+                            A Method for OTA Update in IoT Devices andEmbedded Systems Using RAUC and Hawkbitframework
+                            (148), Surabhi Ashok Babu, CRL-BG
+                        </td>
+                        <td class="session-5">
+                            Enemy Aircraft Activity and Plan Recognition(136), Deepak Chaudhary, CRL-GAD
+                        </td>
+                        <td class="session-6">
+                            Automatic Scheme to obtain elevation anglefrom elevation channel and sub-channelnumber for
+                            3D Surveillance Radar (62)Grandhik Karthik, CRL-BG
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>11:00 - 11:15</td>
+                        <td colspan="3" class="text-center schedule__break">TEA BREAK</td>
+                    </tr>
+                    <tr>
+                        <td>11:15 - 11:35</td>
+                        <td class="session-4">
+                            Optimizing Convolutional Neural Network forefficient recognition of HandwrittenDevanagari
+                            Characters (97),Akash Majumdar, CRL-GAD
+                        </td>
+                        <td class="session-5">
+                            An Ensemble method in NLP using ContextualEmbeddings and Independently RecurrentNeural
+                            Networks for Defense Applications (85)Mani Wadhwa, CRL-GAD
+                        </td>
+                        <td class="session-6">
+                            Frequency Estimation from UndersampledWaveforms using Robust Chiense RemainderTheorem
+                            (151),Dibyakanti Mahapatra, CRL-BG
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>11:35 - 11:55</td>
+                        <td class="session-4">
+                            Optimizing Data Flow using Flow Controller(89), Kamlendra Pratap Singh, NCS
+                        </td>
+                        <td class="session-5">
+                            Embedded Video Processing Solution forRUSTOM-II UAV(157), Santosh Kumar, CRL-BG
+                        </td>
+                        <td class="session-6">
+                            Radar Target Image Formation for Classificationusing High Frequency High Resolution
+                            RadarSignature(37), Sherry Gomez, CRL-BG
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>11:55 - 12:15</td>
+                        <td class="session-4">
+                            The Method for Implementation of LoadBalancer and High Availability in Private
+                            CloudEnvironment (107), Manjunatha D R, CRL-BG
+                        </td>
+                        <td class="session-5">
+                            ML Based Data Association using Bi-LSTMNetworks (182), Yedhu Shali, CRL-BG
+                        </td>
+                        <td class="session-6">
+                            True Time Delay Filters for Phased Array Radars(43), K. REVATI SURESH, CRL-BG
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>12:15 - 12:35</td>
+                        <td class="session-4">
+                            Design &amp; Development of Timing GenerationUnit for synchronous operation of
+                            four-walledMulti-Function Radar (51), Darshan L, CRL-BG
+                        </td>
+                        <td class="session-5">
+                            Impact of Learning Rate Schedulers on DeepNeural Network (187),Shashi Shekhar, CRL-GAD
+                        </td>
+                        <td class="session-6">
+                            A Case Study on Transmit Beamforming inMIMO Phased Array Radar (64),Akhil Johnson, CRL-BG
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>12:35 - 12:55</td>
+                        <td class="session-4">
+                            Improving Vehicular Handover Time UsingMake Before Break Mechanism (90),Kolla Pradeepthi,
+                            CRL-BG
+                        </td>
+                        <td class="session-5">
+                            Pix2Pix GAN Image Synthesis to Detect ElectricVehicle License Plate (142),Kalpana.A, CRL-BG
+                        </td>
+                        <td class="session-6">
+                            A real time state of art Multi channel computingsystem for radar signal processing
+                            (143),Kuchipudi Rathna Prasad, CRL-BG
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>12:55 - 13:15</td>
+                        <td class="session-4">
+                            Remote software update for FPGA based systems (103), Anand Patil, SC&US
+                        </td>
+                        <td class="session-5">
+                            CamFeedAnalyser AResNet Based Tool for E2E Spatio-Temporal Inconsistency Detection in
+                            Videos(133), Jaskaranpreet Kaur, CRL-GAD
+                        </td>
+                        <td class="session-6">
+                            Low Probability of Intercept Radar for Drone Detection using FMCW Technique (181), Jeevan
+                            Shastry D G, MR
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>13:15 - 14:00</td>
+                        <td colspan="3" class="text-center schedule__break">LUNCH</td>
+                    </tr>
+                    <tr class="fw-bold">
+                        <td>14:00 - 14:45</td>
+                        <td colspan="3">
+                            Invited Talk by Prof M. V. Kartikeyan, IIT Tirupati - Sir M Visvesvaraya Auditorium
+                        </td>
+                    </tr>
+                    <tr class="fw-bold text-center">
+                        <td>14:45 - 18:00</td>
+                        <td>
+                            Session-7 (RADAR &amp; Weapon System)Chair: Shri SURESH KUMAR K V, GM - PDICCochair: Smt.
+                            DHARANI B, AGM - D &amp; E NS2
+                        </td>
+                        <td>
+                            Session-8 (Embedded Systems)Chair: Smt. DURGA G K, GM - BSTCCo-chair: Shri PRAKASH S P, AGM
+                            - PDIC
+                        </td>
+                        <td>
+                            Session-9 (Microwave components)Chair: Shri NARESH KUMAR S, GM-COMPCo-chair: Dr VISWANADHAM
+                            CH, AGM - PDIC
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>14:45 - 15:05</td>
+                        <td class="session-7">
+                            Multiple Target Detection and Tracking inInfrared Spectrum for Anti-Drone Systems
+                            (30)Varanasi Krishna Priya, CRL-BG
+                        </td>
+                        <td class="session-8">
+                            BEL Designed Potable Water Solution forMobile Troops (32),SOUMITRA BHAUMIK, NAMU
+                        </td>
+                        <td class="session-9">
+                            Design of Programmable Wide Band High PowerTunable Filter Using Switched Binary
+                            ArrayCapacitors (82), PRAVEEN GUNDETI, CRL-BG
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>15:05 - 15:25</td>
+                        <td class="session-7">
+                            Augmented Reality Application inMaintenance, Repair, Operation &amp; Training forSonar
+                            System(27), Kotresh Kumar DS, NS
+                        </td>
+                        <td class="session-8">
+                            Design and Implementation of a RV64IMExtension BRISC processor (49),Sharath H S, CRL-BG
+                        </td>
+                        <td class="session-9">
+                            I-Style Waveguide Rotary Joint for MechanicallyScanned Radars in S-Band (87),AKHIL GUPTA,
+                            Antenna
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>15:25 - 15:45</td>
+                        <td class="session-7">
+                            Fast and Pre-emeptive Scanning Method forNarrow Band ESM Receiver Using ZynqPlatform(31),
+                            Faiz Ahmed, HYD
+                        </td>
+                        <td class="session-8">
+                            Design &amp; implementation of High Power AC-DC Power Supply for Military
+                            ElectricVehicles(81), Saurab T M, PDIC
+                        </td>
+                        <td class="session-9">
+                            Three-Way, Equal-Phase High Power Divider &amp;Combiner with a Novel method of
+                            improvingIsolation. (102), Pankaj Gupta, PDIC
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>15:45 - 16:00</td>
+                        <td colspan="3" class="text-center schedule__break">TEA BREAK</td>
+                    </tr>
+                    <tr>
+                        <td>16:00 - 16:20</td>
+                        <td class="session-7">Countermeasures for Anti-Tank Missiles (163),Abhishek Tiwari, PDIC</td>
+                        <td class="session-8">
+                            Development of dual redundant two channelPower Supply Unit for Radar applications
+                            (96),Navneet Kumar Diwakar, PDIC
+                        </td>
+                        <td class="session-9">
+                            Design and Optimization of Higher OrderWaveguide Duplexer for SOTM (74),Sayyad Shahwaz Ali,
+                            CRL-BG
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>16:20 - 16:40</td>
+                        <td class="session-7">Target Classification for Akash MissileSystem(170), Anju John, CRL-BG</td>
+                        <td class="session-8">
+                            Methodologyfor Characterization ofDifferential Airway Flow Sensor Assembly(110)
+                        </td>
+                        <td class="session-9">
+                            Design of High-Power Harmonic Rejection Filterfor SDR Applications (141),Anand M. Tripathi,
+                            CRL-BG
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>16:40 - 17:00</td>
+                        <td class="session-7">
+                            Performance Analysis on a Real Time FMbased Passive Bistatic Radar ExperimentalSetup(68), D.
+                            Ranganath, CRL-BG
+                        </td>
+                        <td class="session-8">
+                            System and Method for MIL-STD-1553B toEthernet Data Conversion (138),Yatam Venkata Krishna
+                            Reddy, PDIC
+                        </td>
+                        <td class="session-9">
+                            Analysis of a Multi-Octave Co-Axial BalunCascaded with Harmonic Termination (8),S Indumathi,
+                            CRL-BG
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>17:00 - 17:20</td>
+                        <td class="session-7">
+                            Analysis of Monopulse Processing in DigitalArray Radar Receivers (99),Ujjwala Mishra, CRL-BG
+                        </td>
+                        <td class="session-8">
+                            Investigation of bump transmissibility inSuspension system for Efficient UGVControl(140),
+                            Anurag Arjunan, PDIC
+                        </td>
+                        <td class="session-9">
+                            A 1-18 GHz Single Supply 5-Bit Low PowerConsumption MMIC Digital Attenuator (41),Sari.S,
+                            PDIC
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>17:20 - 17:40</td>
+                        <td class="session-7">
+                            Dual Band Chirp Signal Generation For LesserRange Side Lobes(169), Vikas Kumar, PDIC
+                        </td>
+                        <td class="session-8">
+                            Algorithmic Optimization of High ResolutionHardware Timers in Linux OS (161),Sreenivas S,
+                            CRL-BG
+                        </td>
+                        <td class="session-9">
+                            DPLL Based Reflection Coefficient Estimation forAntenna Tuning Unit (61),Prashanth Sujir,
+                            CRL-BG
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>17:40 - 18:00</td>
+                        <td class="session-7">
+                            LIF based Real Time Biological Agent DetectionSystem (173),PANKAJ R. PACHARNE, PN
+                        </td>
+                        <td class="session-8"></td>
+                        <td class="session-9">
+                            Design and Realization of Gysel Power Divider/Combiner for High Power Handling in C
+                            Band(73), Manish Mishra, PDIC
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </body>
+</html>
